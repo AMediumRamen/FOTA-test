@@ -14,4 +14,5 @@ def testConnection():
 def returnHelloWorld():
     return "Hello World"
 
-application.run()
+if __name__ == '__main__':
+    application.run()
